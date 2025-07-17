@@ -6,6 +6,7 @@ DEBIAN_FRONTEND=noninteractive apt-get install -y \
     make \
     cmake \
     git \
+    zlib1g-dev \
     --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
