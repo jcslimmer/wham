@@ -14,4 +14,4 @@ COPY . .
 
 RUN make
 
-CMD["/bin/bash"]
+CMD ["/bin/bash"]
